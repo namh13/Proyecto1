@@ -1,0 +1,48 @@
+
+import java.util.Scanner;
+public class Clase2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Que tipo de operacion quiere realizar: - , + , / , *");
+Scanner miescanner= new Scanner (System.in);
+String pregunta= miescanner.next();
+
+//int num2 = miescanner.nextInt();
+
+{
+	if (pregunta=="-"){
+	System.out.println("A seleccionado una resta");
+	//System.out.println("Ingrese el Primer Valor");
+	//int num1 = miescanner.nextInt();
+	//System.out.println("Su digito"+ num1);
+	} else {
+		if (pregunta=="+");
+		System.out.println("A seleccionado una Suma");
+	}
+		
+	}
+
+
+
+/*
+if (num==5)
+{
+	System.out.print("El numero es igual a 5");
+}
+ else {
+	System.out.print("El numero es distinto a 5");
+}*/
+
+/*int num1;
+int num2;
+num1=5;
+num2=5;
+System.out.print("La Suma es:");
+System.out.println(num1+num2);
+System.out.print("La Resta es:");
+System.out.print(num1-num2);*/
+	}
+		
+}
+

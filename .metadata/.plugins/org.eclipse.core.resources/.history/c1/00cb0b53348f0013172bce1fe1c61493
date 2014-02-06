@@ -1,0 +1,22 @@
+package com.me.mygdxgame;
+
+ class B{
+	int x;
+}
+public class Proyecto {
+
+	int a;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B mi_objeto=new B();
+		mi_objeto.x=10;
+		System.out.print(mi_objeto.x);
+		
+		B mi_otro_objeto=new B();
+		mi_otro_objeto.x=20;
+		
+		System.out.print(mi_objeto.x);
+		System.out.print(mi_otro_objeto.x);
+	}
+
+}
